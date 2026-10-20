@@ -84,12 +84,6 @@ HF_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxxxxx
 
 모든 로그는 `run_log.txt`에 시간 표시와 함께 저장됩니다.
 
-### 2) 판단 로직 단위 테스트
-
-```bash
-python test_planner.py
-```
-
 ## 파일 구성
 
 | 파일 | 역할 |
@@ -99,7 +93,6 @@ python test_planner.py
 | `screen.py` | 화면 캡처, 게임 캔버스 자동 탐색 |
 | `planner.py` | 낙하물 추적, 속도 추정, 이동·회피 판단 (외부 의존성 없음) |
 | `bot.py` | 인식 스레드 + 제어 루프, 마우스 조작 |
-| `test_planner.py` | 판단 로직 단위 테스트 |
 
 ## 한계와 주의
 
